@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif, Helvetica; /* Czcionka*/
+    line-height: 1.6; 
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #35424a; 
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header img.header-photo {
+    border-radius: 50%; /* Zmienia kształt zdjęcia na okrągły */
+    width: 50px; /* Szerokość zdjęcia */
+    height: 50px; /* Wysokość zdjęcia */
+    position: absolute; /* Pozycjonowanie absolutne */
+    top: 50%; /* Wyśrodkowanie w pionie */
+    left: 20px; /* Odległość od lewej krawędzi */
+    transform: translateY(-50%); /* Wyśrodkowanie w pionie */
+}
+
+h1 {
+    margin: 0;
+}
+
+.profile-photo {
+    border-radius: 50%; /* Zmienia kształt zdjęcia na okrągły */
+    width: 100px; /* Szerokość zdjęcia */
+    height: 100px; /* Wysokość zdjęcia */
+    margin-top: 10px; /* Odległość od góry */
+}
+
+section {
+    margin: 10px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.job, .degree {
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center; /* Text stopki po środku */
+    padding: 10px 0; 
+    background: #35424a;
+    color: #fff;
+    position: relative; /* Ustawienie stopki na dole ekranu */
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Dodanie cienia */
+    z-index: 1000; /* Upewnienie się, że stopka jest na wierzchu */
+}
+
+@media (min-width: 768px) {
+    header {
+        padding: 15px;
+    }
+}
