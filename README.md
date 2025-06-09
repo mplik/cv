@@ -4,6 +4,10 @@
 
 To repozytorium zawiera aktualną wersję mojego życiorysu (CV) w formacie [tu wstaw format, np. PDF/LaTeX/Markdown]. Repozytorium umożliwia łatwe śledzenie zmian w CV oraz szybkie udostępnianie najnowszej wersji.
 
+## GitAds Sponsored
+[![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=mplik/cv@github)](https://gitads.dev/v1/ad-track?source=mplik/cv@github)
+
+
 ## Zawartość
 
 - Plik źródłowy CV ([tu wstaw nazwę pliku, np. cv.tex, cv.md])
